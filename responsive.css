@@ -1,0 +1,308 @@
+@media screen and (max-width: 1120px) {
+  #main-nav .join {
+    display: none;
+  }
+  .container {
+    width: 90%;
+  }
+  #company-stats .stat-content {
+    grid-template-columns: 1fr;
+  }
+  #company-stats .stat-left {
+    width: 60%;
+  }
+
+  .showcase .showcase-img-content .number p,
+  .showcase .showcase-img-content .location p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  #company-stats .stat-right {
+    justify-content: space-between;
+  }
+  #company-stats .stat-box {
+    height: 175px;
+    width: 175px;
+  }
+
+  #agents .agent-card-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #agents .agent-name {
+    margin-left: 0px;
+  }
+  #agents .agent-social {
+    margin-top: 20px;
+  }
+  #agents .agent-social a {
+    margin-right: 0px;
+    padding: 0 10px;
+  }
+
+  #how-it-works .boxes .box {
+    height: 260px;
+    width: 260px;
+  }
+  #how-it-works .boxes .box > p {
+    margin: 15px 0;
+  }
+  #services .services-details h3 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .navbar .navigation {
+    position: fixed;
+    bottom: 0;
+    right: -500px;
+    top: 114px;
+    width: 40%;
+    background: #85929e;
+    transition: all 0.5s;
+  }
+  .navbar .navigation ul {
+    flex-direction: column;
+    margin-top: 25vh;
+  }
+  .navbar .navigation ul li {
+    margin: 10px 0;
+  }
+  .navbar .navigation ul li a {
+    font-size: 1.4rem;
+  }
+  .checkbtn {
+    display: block;
+  }
+  #check:checked ~ .navigation {
+    right: 0px;
+  }
+
+  #agents .agent-title {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  #appartments .appartment-list .appartment-item {
+    height: 410px;
+  }
+  #agents .agent-card-boxes .agent-card {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #company-stats .stat-right {
+    justify-content: center;
+    align-items: center;
+  }
+  #company-stats .stat-box {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #how-it-works .content {
+    width: 60%;
+  }
+  #how-it-works .boxes .box {
+    height: 230px;
+    width: 250px;
+    padding: 0 10px;
+  }
+
+  #appartments .appartment-list .appartment-item {
+    height: 370px;
+  }
+  #agents .agent-card-boxes .agent-card {
+    height: 370px;
+  }
+  #footer .footer-inner {
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .showcase .showcase-img-content {
+    width: 70%;
+  }
+  .showcase .showcase-content h1 {
+    font-size: 50px;
+  }
+  #services .services-inner {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navigation {
+    width: 50%;
+  }
+  #company-stats .stat-box {
+    height: 250px;
+    width: 250px;
+  }
+
+  #appartments .appartment-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+  #appartments .appartment-list .appartment-item {
+    height: 470px;
+  }
+
+  #how-it-works .boxes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #how-it-works .boxes .box {
+    height: 300px;
+    width: 300px;
+    margin: 30px 0;
+  }
+  #services .services-content {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  #appartments .btn-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #appartments .btn-group button {
+    margin-top: 30px;
+  }
+
+  #footer .footer-inner {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .showcase .showcase-content {
+    margin-left: 20px;
+  }
+  .showcase .showcase-img {
+    left: 0;
+  }
+  #how-it-works .content {
+    width: 100%;
+  }
+  #services .services-inner {
+    width: 100%;
+  }
+  #services img {
+    width: 70%;
+  }
+
+  #appartments .appartment-list .appartment-item {
+    height: 420px;
+  }
+
+  #agents .agent-card-boxes .agent-card {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #services img {
+    width: 100%;
+  }
+
+  #agents .agent-card-boxes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #agents .agent-card-boxes .agent-card {
+    height: 510px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  #agents .agent-title {
+    width: 100%;
+  }
+
+  #footer .footer-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #footer .footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  #appartments .form-group input[type="text"] {
+    width: 200px;
+  }
+
+  #appartments .appartment-list {
+    grid-template-columns: 1fr;
+  }
+
+  #appartments .appartment-list .appartment-item {
+    height: 670px;
+  }
+
+  #company-stats .stat-left {
+    width: 100%;
+  }
+
+  .showcase .showcase-content input[type="text"] {
+    width: 220px;
+  }
+
+  .showcase .showcase-content h1 {
+    font-size: 40px;
+  }
+
+  .showcase .showcase-img-content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #appartments .appartment-list .appartment-item {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .showcase .showcase-content input[type="text"] {
+    width: 180px;
+  }
+
+  .showcase .showcase-img-content {
+    width: 100%;
+  }
+  #appartments .appartment-list .appartment-item {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #appartments .appartment-list .appartment-item {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #appartments .appartment-list .appartment-item {
+    height: 450px;
+  }
+}
